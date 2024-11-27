@@ -1,9 +1,6 @@
 import numpy as np
 from sklearn.naive_bayes import GaussianNB
-from sklearn.metrics import classification_report, confusion_matrix
-from sklearn.model_selection import cross_val_score
 from sklearn.decomposition import PCA
-import pickle
 import dill
 
 class GaussianNaiveBayesClassifier:
