@@ -69,9 +69,7 @@ def evaluateTorchModel(model, features_test, labels_test):
 
 ''' Metric table '''
 def compute_metrics(y_true, y_pred):
-    """
-    Compute accuracy, precision, recall, and F1-score.
-    """
+
     accuracy = np.mean(y_true == y_pred)
     precision = precision_score(y_true, y_pred, average='weighted', zero_division=0)
     recall = recall_score(y_true, y_pred, average='weighted')
@@ -79,9 +77,7 @@ def compute_metrics(y_true, y_pred):
     return accuracy, precision, recall, f1
 
 def evaluate_and_store_metrics(model, features_test, labels_test, is_torch_model=False):
-    """
-    Evaluate a model and compute metrics. Return results as a dictionary.
-    """
+
     if is_torch_model:
         model.eval()
         all_preds = []
