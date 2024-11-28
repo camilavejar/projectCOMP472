@@ -107,4 +107,9 @@ if __name__ == "__main__":
     print(f"Test Accuracy: {100 * correctlyClassified / totalSamples:.2f}%")
 
     # Saving the model
-    # torch.save(model, 'MLPclassifier.pth')  # Save the entire model
+    torch.save(model, 'MLPclassifier.pth')
+    # torch.save(model, 'MLPclassifierAddDropOut.pth')
+    # torch.save(model, 'MLPclassifierAddLayer.pth')
+    # torch.save(model, 'MLPclassifierAddLayerAndDropOut.pth')
+
+

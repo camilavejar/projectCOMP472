@@ -71,9 +71,9 @@ if __name__ == "__main__":
     print('Python Naive Bayes Classifier')
     print(f"Accuracy: {accuracy1 * 100:.2f}%")
 
-    ### Save model
-    with open('gaussianNaiveBayesClassifier.dill', 'wb') as f:
-        dill.dump(model, f)
+    # ### Save model
+    # with open('gaussianNaiveBayesClassifier.dill', 'wb') as f:
+    #     dill.dump(model, f)
 
     ''' Scikit's Naive Bayes Classifier '''
     # Initialize and train the model
@@ -83,3 +83,7 @@ if __name__ == "__main__":
     accuracy = gnb.score(features_test, labels_test)
     print('Scikit\'s Naive Bayes Classifier')
     print(f"Accuracy: {accuracy * 100:.2f}%")
+
+    # ### Save model
+    # with open('gaussianNaiveBayesScikit.dill', 'wb') as f:
+    #     dill.dump(model, f)
