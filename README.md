@@ -53,7 +53,7 @@ Here is the output metric table:
 ![image](https://github.com/user-attachments/assets/ead01974-c906-41cd-afbd-c7798fe489dc)
 
 The saved models will be included in a different place because they are too big to upload.
-
+Here is a google drive with the models: https://drive.google.com/drive/folders/1Q_JEIfWdAAhOpw4JhRfsMpbaYq9CSbeB?usp=sharing
 
 
 
